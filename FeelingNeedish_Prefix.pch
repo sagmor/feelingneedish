@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'Feeling Needish' target in the 'Feeling Needish' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#import "APIKEY.h"
+
+#ifdef DEBUGMODE
+    #define MFDebug NSLog
+#else
+    #define MFDebug //NSLog
+#endif

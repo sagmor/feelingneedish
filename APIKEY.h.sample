@@ -1,0 +1,6 @@
+
+#ifdef DEBUGMODE
+#define NEEDISH_API_KEY @"debug-key"
+#else
+#define NEEDISH_API_KEY @"production-key"
+#endif

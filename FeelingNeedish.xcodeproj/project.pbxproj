@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FeelingNeedishAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FeelingNeedishAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* MainViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		CE186CA70E9738A5000A0E0C /* no_picture_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE186CA10E9738A5000A0E0C /* no_picture_2.png */; };
+		CE186CA80E9738A5000A0E0C /* no_picture_0.png in Resources */ = {isa = PBXBuildFile; fileRef = CE186CA20E9738A5000A0E0C /* no_picture_0.png */; };
+		CE186CA90E9738A5000A0E0C /* no_picture_4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE186CA30E9738A5000A0E0C /* no_picture_4.png */; };
+		CE186CAA0E9738A5000A0E0C /* no_picture_3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE186CA40E9738A5000A0E0C /* no_picture_3.png */; };
+		CE186CAB0E9738A5000A0E0C /* no_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = CE186CA50E9738A5000A0E0C /* no_picture.png */; };
+		CE186CAC0E9738A5000A0E0C /* no_picture_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE186CA60E9738A5000A0E0C /* no_picture_1.png */; };
+		CE186CCE0E97D9C7000A0E0C /* NeedishAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CE186CCD0E97D9C7000A0E0C /* NeedishAPI.m */; };
+		CE186CD70E97E924000A0E0C /* NeedishObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE186CD60E97E924000A0E0C /* NeedishObject.m */; };
+		CE186CEA0E980547000A0E0C /* NeedishHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CE186CE90E980547000A0E0C /* NeedishHelp.m */; };
+		CE186CFA0E9839B3000A0E0C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CE186CF90E9839B3000A0E0C /* NSData+Base64.m */; };
+		CE3636F70E99DAA200A0D49D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = CED0365F0E9643F100A937E4 /* iTunesArtwork */; };
+		CE3672D20E889BCC000C97CF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE3672D10E889BCC000C97CF /* Settings.bundle */; };
+		CE36735D0E8952EE000C97CF /* PostNeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE36735C0E8952EE000C97CF /* PostNeedViewController.xib */; };
+		CE36735F0E895304000C97CF /* NeedDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE36735E0E895304000C97CF /* NeedDetailViewController.xib */; };
+		CE3673610E895318000C97CF /* NeedsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3673600E895318000C97CF /* NeedsListViewController.xib */; };
+		CE3673630E895324000C97CF /* NeedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3673620E895324000C97CF /* NeedViewCell.xib */; };
+		CE36736F0E895591000C97CF /* PostNeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE36736E0E895591000C97CF /* PostNeedViewController.m */; };
+		CE3673800E89582C000C97CF /* needish_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE36737F0E89582C000C97CF /* needish_logo.png */; };
+		CE3674180E8995F2000C97CF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3674170E8995F2000C97CF /* MainViewController.m */; };
+		CE6F68580E91C4FD006BDA64 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F68570E91C4FD006BDA64 /* icon.png */; };
+		CE6F685C0E9276FB006BDA64 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F685B0E9276FB006BDA64 /* star.png */; };
+		CE6F68630E927B8E006BDA64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6F68620E927B8E006BDA64 /* background.jpg */; };
+		CE6F68A10E93A9EA006BDA64 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F68A00E93A9EA006BDA64 /* AboutViewController.m */; };
+		CE6F68A30E93A9F7006BDA64 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6F68A20E93A9F7006BDA64 /* AboutViewController.xib */; };
+		CE6F68A50E93AA9F006BDA64 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = CE6F68A40E93AA9F006BDA64 /* about.html */; };
+		CE8E80400EA3F79300D0EF08 /* PostHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8E803F0EA3F79300D0EF08 /* PostHelpViewController.xib */; };
+		CE8E80450EA3F7E500D0EF08 /* PostHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80440EA3F7E500D0EF08 /* PostHelpViewController.m */; };
+		CE8E81730EA4DA1100D0EF08 /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8E81720EA4DA1100D0EF08 /* UserDetailsViewController.xib */; };
+		CE8E81760EA4DA2900D0EF08 /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E81750EA4DA2900D0EF08 /* UserDetailsViewController.m */; };
+		CEBFEA940E8BEF9A00DABBDD /* NeedishNeed.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFEA930E8BEF9A00DABBDD /* NeedishNeed.m */; };
+		CEBFEA970E8BEFCD00DABBDD /* NeedishUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFEA960E8BEFCD00DABBDD /* NeedishUser.m */; };
+		CEBFEB1F0E8C17A500DABBDD /* NeedsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFEB1E0E8C17A500DABBDD /* NeedsListViewController.m */; };
+		CEBFEB7B0E8C1FB600DABBDD /* NeedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFEB7A0E8C1FB600DABBDD /* NeedViewCell.m */; };
+		CEBFEC7C0E8D2A6700DABBDD /* NeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFEC7B0E8D2A6700DABBDD /* NeedDetailViewController.m */; };
+		CEBFED490E8EE9AB00DABBDD /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFED440E8EE9AB00DABBDD /* NSObject+SBJSON.m */; };
+		CEBFED4A0E8EE9AB00DABBDD /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFED460E8EE9AB00DABBDD /* NSString+SBJSON.m */; };
+		CEBFED4B0E8EE9AB00DABBDD /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFED480E8EE9AB00DABBDD /* SBJSON.m */; };
+		CEF26D4E0E9473B000A0DDDF /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEF26D4D0E9473B000A0DDDF /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FeelingNeedishAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeelingNeedishAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FeelingNeedishAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeelingNeedishAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Feeling Needish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feeling Needish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* FeelingNeedish_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeelingNeedish_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE186CA10E9738A5000A0E0C /* no_picture_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_picture_2.png; sourceTree = "<group>"; };
+		CE186CA20E9738A5000A0E0C /* no_picture_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_picture_0.png; sourceTree = "<group>"; };
+		CE186CA30E9738A5000A0E0C /* no_picture_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_picture_4.png; sourceTree = "<group>"; };
+		CE186CA40E9738A5000A0E0C /* no_picture_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_picture_3.png; sourceTree = "<group>"; };
+		CE186CA50E9738A5000A0E0C /* no_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_picture.png; sourceTree = "<group>"; };
+		CE186CA60E9738A5000A0E0C /* no_picture_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_picture_1.png; sourceTree = "<group>"; };
+		CE186CCC0E97D9C7000A0E0C /* NeedishAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedishAPI.h; sourceTree = "<group>"; };
+		CE186CCD0E97D9C7000A0E0C /* NeedishAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedishAPI.m; sourceTree = "<group>"; };
+		CE186CD50E97E924000A0E0C /* NeedishObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedishObject.h; sourceTree = "<group>"; };
+		CE186CD60E97E924000A0E0C /* NeedishObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedishObject.m; sourceTree = "<group>"; };
+		CE186CE80E980547000A0E0C /* NeedishHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedishHelp.h; sourceTree = "<group>"; };
+		CE186CE90E980547000A0E0C /* NeedishHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedishHelp.m; sourceTree = "<group>"; };
+		CE186CF80E9839B3000A0E0C /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		CE186CF90E9839B3000A0E0C /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		CE3637880E9B00CD00A0D49D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CE3672D10E889BCC000C97CF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE36730E0E889E20000C97CF /* Setings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Setings-Info.plist"; sourceTree = "<group>"; };
+		CE36735C0E8952EE000C97CF /* PostNeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostNeedViewController.xib; sourceTree = "<group>"; };
+		CE36735E0E895304000C97CF /* NeedDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeedDetailViewController.xib; sourceTree = "<group>"; };
+		CE3673600E895318000C97CF /* NeedsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeedsListViewController.xib; sourceTree = "<group>"; };
+		CE3673620E895324000C97CF /* NeedViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeedViewCell.xib; sourceTree = "<group>"; };
+		CE3673640E8953CF000C97CF /* APIKEY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKEY.h; sourceTree = "<group>"; };
+		CE36736D0E895591000C97CF /* PostNeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostNeedViewController.h; sourceTree = "<group>"; };
+		CE36736E0E895591000C97CF /* PostNeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostNeedViewController.m; sourceTree = "<group>"; };
+		CE36737F0E89582C000C97CF /* needish_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needish_logo.png; sourceTree = "<group>"; };
+		CE3674160E8995F2000C97CF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CE3674170E8995F2000C97CF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CE63DCB80F66005D00D44C43 /* APIKEY.h.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APIKEY.h.sample; sourceTree = "<group>"; };
+		CE6F68570E91C4FD006BDA64 /* icon.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CE6F685B0E9276FB006BDA64 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		CE6F68620E927B8E006BDA64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		CE6F689F0E93A9EA006BDA64 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		CE6F68A00E93A9EA006BDA64 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		CE6F68A20E93A9F7006BDA64 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		CE6F68A40E93AA9F006BDA64 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		CE8E803F0EA3F79300D0EF08 /* PostHelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostHelpViewController.xib; sourceTree = "<group>"; };
+		CE8E80430EA3F7E500D0EF08 /* PostHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostHelpViewController.h; sourceTree = "<group>"; };
+		CE8E80440EA3F7E500D0EF08 /* PostHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostHelpViewController.m; sourceTree = "<group>"; };
+		CE8E81720EA4DA1100D0EF08 /* UserDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
+		CE8E81740EA4DA2900D0EF08 /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		CE8E81750EA4DA2900D0EF08 /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		CEBFEA920E8BEF9A00DABBDD /* NeedishNeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedishNeed.h; sourceTree = "<group>"; };
+		CEBFEA930E8BEF9A00DABBDD /* NeedishNeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedishNeed.m; sourceTree = "<group>"; };
+		CEBFEA950E8BEFCD00DABBDD /* NeedishUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedishUser.h; sourceTree = "<group>"; };
+		CEBFEA960E8BEFCD00DABBDD /* NeedishUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedishUser.m; sourceTree = "<group>"; };
+		CEBFEB1D0E8C17A500DABBDD /* NeedsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedsListViewController.h; sourceTree = "<group>"; };
+		CEBFEB1E0E8C17A500DABBDD /* NeedsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedsListViewController.m; sourceTree = "<group>"; };
+		CEBFEB790E8C1FB600DABBDD /* NeedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedViewCell.h; sourceTree = "<group>"; };
+		CEBFEB7A0E8C1FB600DABBDD /* NeedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedViewCell.m; sourceTree = "<group>"; };
+		CEBFEC7A0E8D2A6700DABBDD /* NeedDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedDetailViewController.h; sourceTree = "<group>"; };
+		CEBFEC7B0E8D2A6700DABBDD /* NeedDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedDetailViewController.m; sourceTree = "<group>"; };
+		CEBFED420E8EE9AB00DABBDD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CEBFED430E8EE9AB00DABBDD /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		CEBFED440E8EE9AB00DABBDD /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		CEBFED450E8EE9AB00DABBDD /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		CEBFED460E8EE9AB00DABBDD /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		CEBFED470E8EE9AB00DABBDD /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		CEBFED480E8EE9AB00DABBDD /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		CED0365F0E9643F100A937E4 /* iTunesArtwork */ = {isa = PBXFileReference; explicitFileType = image.jpeg; path = iTunesArtwork; sourceTree = "<group>"; };
+		CEF26D4D0E9473B000A0DDDF /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEBFEA910E8BEF8100DABBDD /* ObjectiveNeedish */,
+				CEBFEA900E8BEF6B00DABBDD /* Controllers */,
+				CEBFEB790E8C1FB600DABBDD /* NeedViewCell.h */,
+				CEBFEB7A0E8C1FB600DABBDD /* NeedViewCell.m */,
+				1D3623240D0F684500981E51 /* FeelingNeedishAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FeelingNeedishAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3672D10E889BCC000C97CF /* Settings.bundle */,
+				1D6058910D05DD3D006BFB54 /* Feeling Needish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CE36730E0E889E20000C97CF /* Setings-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE63DCB80F66005D00D44C43 /* APIKEY.h.sample */,
+				28A0AAE50D9B0CCF005BE974 /* FeelingNeedish_Prefix.pch */,
+				CE3673640E8953CF000C97CF /* APIKEY.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE36737E0E89582C000C97CF /* Images */,
+				CE36735C0E8952EE000C97CF /* PostNeedViewController.xib */,
+				CE8E803F0EA3F79300D0EF08 /* PostHelpViewController.xib */,
+				CE36735E0E895304000C97CF /* NeedDetailViewController.xib */,
+				CE6F68A40E93AA9F006BDA64 /* about.html */,
+				CE3673600E895318000C97CF /* NeedsListViewController.xib */,
+				CE3673620E895324000C97CF /* NeedViewCell.xib */,
+				2899E55F0DE3E45000AC0155 /* MainViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				CE6F68A20E93A9F7006BDA64 /* AboutViewController.xib */,
+				CE8E81720EA4DA1100D0EF08 /* UserDetailsViewController.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				CEF26D4D0E9473B000A0DDDF /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE186C8A0E973571000A0E0C /* avatars */ = {
+			isa = PBXGroup;
+			children = (
+				CE186CA50E9738A5000A0E0C /* no_picture.png */,
+				CE186CA20E9738A5000A0E0C /* no_picture_0.png */,
+				CE186CA60E9738A5000A0E0C /* no_picture_1.png */,
+				CE186CA10E9738A5000A0E0C /* no_picture_2.png */,
+				CE186CA40E9738A5000A0E0C /* no_picture_3.png */,
+				CE186CA30E9738A5000A0E0C /* no_picture_4.png */,
+			);
+			name = avatars;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CE186CF70E983996000A0E0C /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				CE186CF80E9839B3000A0E0C /* NSData+Base64.h */,
+				CE186CF90E9839B3000A0E0C /* NSData+Base64.m */,
+			);
+			path = base64;
+			sourceTree = "<group>";
+		};
+		CE36737E0E89582C000C97CF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE186C8A0E973571000A0E0C /* avatars */,
+				CED0365F0E9643F100A937E4 /* iTunesArtwork */,
+				CE6F68620E927B8E006BDA64 /* background.jpg */,
+				CE6F685B0E9276FB006BDA64 /* star.png */,
+				CE6F68570E91C4FD006BDA64 /* icon.png */,
+				CE36737F0E89582C000C97CF /* needish_logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEBFEA900E8BEF6B00DABBDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE6F689F0E93A9EA006BDA64 /* AboutViewController.h */,
+				CE6F68A00E93A9EA006BDA64 /* AboutViewController.m */,
+				CE8E80430EA3F7E500D0EF08 /* PostHelpViewController.h */,
+				CE8E80440EA3F7E500D0EF08 /* PostHelpViewController.m */,
+				CE36736D0E895591000C97CF /* PostNeedViewController.h */,
+				CE36736E0E895591000C97CF /* PostNeedViewController.m */,
+				CE3674160E8995F2000C97CF /* MainViewController.h */,
+				CE3674170E8995F2000C97CF /* MainViewController.m */,
+				CEBFEC7A0E8D2A6700DABBDD /* NeedDetailViewController.h */,
+				CEBFEC7B0E8D2A6700DABBDD /* NeedDetailViewController.m */,
+				CE8E81740EA4DA2900D0EF08 /* UserDetailsViewController.h */,
+				CE8E81750EA4DA2900D0EF08 /* UserDetailsViewController.m */,
+				CEBFEB1D0E8C17A500DABBDD /* NeedsListViewController.h */,
+				CEBFEB1E0E8C17A500DABBDD /* NeedsListViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CEBFEA910E8BEF8100DABBDD /* ObjectiveNeedish */ = {
+			isa = PBXGroup;
+			children = (
+				CE3637880E9B00CD00A0D49D /* README */,
+				CE186CF70E983996000A0E0C /* base64 */,
+				CEBFED410E8EE98900DABBDD /* JSON */,
+				CE186CCC0E97D9C7000A0E0C /* NeedishAPI.h */,
+				CE186CCD0E97D9C7000A0E0C /* NeedishAPI.m */,
+				CE186CD50E97E924000A0E0C /* NeedishObject.h */,
+				CE186CD60E97E924000A0E0C /* NeedishObject.m */,
+				CEBFEA950E8BEFCD00DABBDD /* NeedishUser.h */,
+				CEBFEA960E8BEFCD00DABBDD /* NeedishUser.m */,
+				CEBFEA920E8BEF9A00DABBDD /* NeedishNeed.h */,
+				CEBFEA930E8BEF9A00DABBDD /* NeedishNeed.m */,
+				CE186CE80E980547000A0E0C /* NeedishHelp.h */,
+				CE186CE90E980547000A0E0C /* NeedishHelp.m */,
+			);
+			path = ObjectiveNeedish;
+			sourceTree = "<group>";
+		};
+		CEBFED410E8EE98900DABBDD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CEBFED420E8EE9AB00DABBDD /* JSON.h */,
+				CEBFED430E8EE9AB00DABBDD /* NSObject+SBJSON.h */,
+				CEBFED440E8EE9AB00DABBDD /* NSObject+SBJSON.m */,
+				CEBFED450E8EE9AB00DABBDD /* NSString+SBJSON.h */,
+				CEBFED460E8EE9AB00DABBDD /* NSString+SBJSON.m */,
+				CEBFED470E8EE9AB00DABBDD /* SBJSON.h */,
+				CEBFED480E8EE9AB00DABBDD /* SBJSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Feeling Needish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Feeling Needish" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Feeling Needish";
+			productName = "Feeling Needish";
+			productReference = 1D6058910D05DD3D006BFB54 /* Feeling Needish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FeelingNeedish" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Feeling Needish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* MainViewController.xib in Resources */,
+				CE3672D20E889BCC000C97CF /* Settings.bundle in Resources */,
+				CE36735D0E8952EE000C97CF /* PostNeedViewController.xib in Resources */,
+				CE36735F0E895304000C97CF /* NeedDetailViewController.xib in Resources */,
+				CE3673610E895318000C97CF /* NeedsListViewController.xib in Resources */,
+				CE3673630E895324000C97CF /* NeedViewCell.xib in Resources */,
+				CE3673800E89582C000C97CF /* needish_logo.png in Resources */,
+				CE6F68580E91C4FD006BDA64 /* icon.png in Resources */,
+				CE6F685C0E9276FB006BDA64 /* star.png in Resources */,
+				CE6F68630E927B8E006BDA64 /* background.jpg in Resources */,
+				CE6F68A30E93A9F7006BDA64 /* AboutViewController.xib in Resources */,
+				CE6F68A50E93AA9F006BDA64 /* about.html in Resources */,
+				CEF26D4E0E9473B000A0DDDF /* Entitlements.plist in Resources */,
+				CE186CA70E9738A5000A0E0C /* no_picture_2.png in Resources */,
+				CE186CA80E9738A5000A0E0C /* no_picture_0.png in Resources */,
+				CE186CA90E9738A5000A0E0C /* no_picture_4.png in Resources */,
+				CE186CAA0E9738A5000A0E0C /* no_picture_3.png in Resources */,
+				CE186CAB0E9738A5000A0E0C /* no_picture.png in Resources */,
+				CE186CAC0E9738A5000A0E0C /* no_picture_1.png in Resources */,
+				CE3636F70E99DAA200A0D49D /* iTunesArtwork in Resources */,
+				CE8E80400EA3F79300D0EF08 /* PostHelpViewController.xib in Resources */,
+				CE8E81730EA4DA1100D0EF08 /* UserDetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FeelingNeedishAppDelegate.m in Sources */,
+				CE36736F0E895591000C97CF /* PostNeedViewController.m in Sources */,
+				CE3674180E8995F2000C97CF /* MainViewController.m in Sources */,
+				CEBFEA940E8BEF9A00DABBDD /* NeedishNeed.m in Sources */,
+				CEBFEA970E8BEFCD00DABBDD /* NeedishUser.m in Sources */,
+				CEBFEB1F0E8C17A500DABBDD /* NeedsListViewController.m in Sources */,
+				CEBFEB7B0E8C1FB600DABBDD /* NeedViewCell.m in Sources */,
+				CEBFEC7C0E8D2A6700DABBDD /* NeedDetailViewController.m in Sources */,
+				CEBFED490E8EE9AB00DABBDD /* NSObject+SBJSON.m in Sources */,
+				CEBFED4A0E8EE9AB00DABBDD /* NSString+SBJSON.m in Sources */,
+				CEBFED4B0E8EE9AB00DABBDD /* SBJSON.m in Sources */,
+				CE6F68A10E93A9EA006BDA64 /* AboutViewController.m in Sources */,
+				CE186CCE0E97D9C7000A0E0C /* NeedishAPI.m in Sources */,
+				CE186CD70E97E924000A0E0C /* NeedishObject.m in Sources */,
+				CE186CEA0E980547000A0E0C /* NeedishHelp.m in Sources */,
+				CE186CFA0E9839B3000A0E0C /* NSData+Base64.m in Sources */,
+				CE8E80450EA3F7E500D0EF08 /* PostHelpViewController.m in Sources */,
+				CE8E81760EA4DA2900D0EF08 /* UserDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeelingNeedish_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Feeling Needish";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeelingNeedish_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Feeling Needish";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUGMODE;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "98740D89-B5B8-4575-9806-F5E92BB7579C";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Release;
+		};
+		CE1DEC720E9E305700170580 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = DefaultProfileUuid;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Distribution;
+		};
+		CE1DEC730E9E305700170580 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sebastián Gamboa";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FeelingNeedish_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "Feeling Needish";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2110E748-7DC4-4C40-A168-0808DDBF221E";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Feeling Needish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				CE1DEC730E9E305700170580 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FeelingNeedish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				CE1DEC720E9E305700170580 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
