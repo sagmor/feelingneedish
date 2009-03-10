@@ -1,0 +1,10 @@
+==== Feeling Needish ====
+---------------------
+
+This is the source code of the application that I developed for the Web 2.0 Rockstars programing contest (http://www.web2rockstars.com/).
+
+It basically consumes the Needish API to perform some basics operation
+
+To test it you must copy the __APIKEY.h.sample__ to __APIKEY.h__ and insert there your Needish API key
+
+Feel free to contact me if you have any question.
